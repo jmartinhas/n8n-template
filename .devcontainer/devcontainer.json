@@ -1,0 +1,20 @@
+    {
+      "name": "n8n Development",
+      "image": "mcr.microsoft.com/devcontainers/universal:latest",
+      "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+      },
+      "customizations": {
+        "vscode": {
+          "extensions": [
+            "esbenp.prettier-vscode",
+            "dbaeumer.vscode-eslint",
+            "streetsidesoftware.code-spell-checker",
+            "n8n-io.n8n-vscode"
+          ]
+        }
+      },
+      "forwardPorts": [
+        5678
+      ]
+    }
